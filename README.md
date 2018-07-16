@@ -1,6 +1,9 @@
 # webpack4多页面配置
 基于webpack4.的多页应用配置，包括常见的插件使用与配置。
 
+# 说明
+
+  
 
 ```js
 const path = require('path');

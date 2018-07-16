@@ -51,7 +51,7 @@ function findSync(startPath, libObject) {
 	result.forEach(path => {
 		
 		const chunk = path.replace(/.html/g, '').split('/').pop()
-		entries[chunk] = './src/js/' + path.match(/[^\/]*[.]+/g)[0] + 'js'; // js 入口
+		entries[chunk] = './src/js/' + path.match(/[^\/]*[.]+/g)[0] + 'js';
 		chunks.push(chunk)
 		const filename = chunk + '.html'
 		

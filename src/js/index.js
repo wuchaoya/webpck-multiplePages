@@ -1,11 +1,5 @@
-import "../css/a.css"
-import "../less/test.less"
-import {a, b, Person} from "./test.js"
+import {a, b} from "./test.js"
+import * as _ from '../utiliy/_';
+
 console.log(a);
-console.log(b);
-$("div").eq(0).css({
-	width:"800px",
-	height: "800px",
-	background: "#ccc"
-});
-document.querySelector("div").innerHTML = "after bundle123456";
+console.log(_);

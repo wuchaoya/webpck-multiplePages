@@ -1,3 +1,3 @@
 export const a = 10;
-export const b = 15;
+export const b = 12;
 
